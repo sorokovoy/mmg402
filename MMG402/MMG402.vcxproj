@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{65EFC208-29D8-4630-B13D-FA8D8D817EBE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MMG402</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)1</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="MMG402.h" />
+    <ClInclude Include="MMG402\libs\GUtils\GUAssert.h" />
+    <ClInclude Include="MMG402\libs\GUtils\GUAutoPtr.h" />
+    <ClInclude Include="MMG402\libs\GUtils\GUMathUtils.h" />
+    <ClInclude Include="MMG402\libs\GUtils\GUNullableType.h" />
+    <ClInclude Include="MMG402\libs\GUtils\GUPointerStorage.h" />
+    <ClInclude Include="MMG402\libs\GUtils\GURandom.h" />
+    <ClInclude Include="MMG402\libs\GUtils\GUStringUtils.h" />
+    <ClInclude Include="MMG402\libs\GUtils\GUWeakPtr.h" />
+    <ClInclude Include="MMG402\libs\MExp\IMECalculator.h" />
+    <ClInclude Include="MMG402\libs\MExp\IMESymbolData.h" />
+    <ClInclude Include="MMG402\libs\MExp\IMESymbolOperators.h" />
+    <ClInclude Include="MMG402\libs\MExp\IMESymbolPrinter.h" />
+    <ClInclude Include="MMG402\libs\MExp\MECalculatorDeep.h" />
+    <ClInclude Include="MMG402\libs\MExp\MESymbol.h" />
+    <ClInclude Include="MMG402\libs\MExp\MESymbolArifmetic.h" />
+    <ClInclude Include="MMG402\libs\MExp\MESymbolDerivative.h" />
+    <ClInclude Include="MMG402\libs\MExp\MESymbolFunc.h" />
+    <ClInclude Include="MMG402\libs\MExp\MESymbolPrinterArifmetic.h" />
+    <ClInclude Include="MMG402\libs\MExp\MESymbolTable.h" />
+    <ClInclude Include="MMG402\libs\MMG402IndexDimReductor.h" />
+    <ClInclude Include="MMG402\libs\ObjExtension.h" />
+    <ClInclude Include="MMG402\libs\ObjRegistry.h" />
+    <ClInclude Include="MMG402\MMG402BackwardSolver\MMG402RegressionAnalyzer.h" />
+    <ClInclude Include="MMG402\MMG402BackwardSolver\MMG402RegressionAnalyzerExpGrid.h" />
+    <ClInclude Include="MMG402\MMG402BackwardSolver\MMG402RegressionAnalyzerExpScalar.h" />
+    <ClInclude Include="MMG402\MMG402Domain\IMMG402Domain.h" />
+    <ClInclude Include="MMG402\MMG402Domain\MMG402DomainPoint.h" />
+    <ClInclude Include="MMG402\MMG402Domain\MMG402DomainSpaceDimReductor.h" />
+    <ClInclude Include="MMG402\MMG402Domain\MMG402Rectangle.h" />
+    <ClInclude Include="MMG402\MMG402Domain\MMG402RectDomain.h" />
+    <ClInclude Include="MMG402\MMG402Expression\IMMG402Operator.h" />
+    <ClInclude Include="MMG402\MMG402Expression\IMMG402OperatorBinary.h" />
+    <ClInclude Include="MMG402\MMG402Expression\IMMG402OperatorUnary.h" />
+    <ClInclude Include="MMG402\MMG402Expression\MMG402SymbolArifmetic.h" />
+    <ClInclude Include="MMG402\MMG402Expression\MMG402SymbolDataGrid.h" />
+    <ClInclude Include="MMG402\MMG402Expression\MMG402SymbolDataScalar.h" />
+    <ClInclude Include="MMG402\MMG402Expression\MMG402SymbolFunc.h" />
+    <ClInclude Include="MMG402\MMG402Func\IMMG402Func.h" />
+    <ClInclude Include="MMG402\MMG402Func\IMMG402FuncTemporal.h" />
+    <ClInclude Include="MMG402\MMG402Func\MMG402FuncConstant.h" />
+    <ClInclude Include="MMG402\MMG402Func\MMG402FuncDescription.h" />
+    <ClInclude Include="MMG402\MMG402Func\MMG402FuncSpaceDimReductor.h" />
+    <ClInclude Include="MMG402\MMG402Func\MMG402FuncStorage.h" />
+    <ClInclude Include="MMG402\MMG402Func\MMG402FuncStorageKey.h" />
+    <ClInclude Include="MMG402\MMG402Func\MMG402FuncTrancatedSphere.h" />
+    <ClInclude Include="MMG402\MMG402Grid\IMMG402Grid.h" />
+    <ClInclude Include="MMG402\MMG402Grid\IMMG402GridIndexer.h" />
+    <ClInclude Include="MMG402\MMG402Grid\MMG402GridIndexerLinear.h" />
+    <ClInclude Include="MMG402\MMG402Grid\MMG402GridIndexerSpaceDimReductor.h" />
+    <ClInclude Include="MMG402\MMG402Grid\MMG402GridSpaceDimReductor.h" />
+    <ClInclude Include="MMG402\MMG402Grid\MMG402GridUniform.h" />
+    <ClInclude Include="MMG402\MMG402Matrix\IMMG402Matrix.h" />
+    <ClInclude Include="MMG402\MMG402Matrix\MMG402Matrix3Diagonal.h" />
+    <ClInclude Include="MMG402\MMG402Matrix\MMG402MatrixDensy.h" />
+    <ClInclude Include="MMG402\MMG402Matrix\MMG402MatrixSolver.h" />
+    <ClInclude Include="MMG402\MMG402Matrix\MMG402MatrixSparce.h" />
+    <ClInclude Include="MMG402\MMG402NumericData\IMMG402NumData.h" />
+    <ClInclude Include="MMG402\MMG402NumericData\IMMG402NumDataOperator.h" />
+    <ClInclude Include="MMG402\MMG402NumericData\MMG402NumDataCellReductor.h" />
+    <ClInclude Include="MMG402\MMG402NumericData\MMG402NumDataDensy.h" />
+    <ClInclude Include="MMG402\MMG402NumericData\MMG402NumDataFuncAdapter.h" />
+    <ClInclude Include="MMG402\MMG402NumericData\MMG402NumDataSpaceDimReductor.h" />
+    <ClInclude Include="MMG402\MMG402Solver\IMMG402Solver.h" />
+    <ClInclude Include="MMG402\MMG402Solver\IMMG402SolverDataStorage.h" />
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverInput.h" />
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverOutput.h" />
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\IMMG402OperatorTemporal.h" />
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\IMMG402OperatorTemporalUniversal.h" />
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\IMMG402SolverTemporal.h" />
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402OperatorCellSolver.h" />
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402OperatorExplicitSpartialAverage.h" />
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402OperatorExplicitSpartialD1.h" />
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402OperatorExplicitSpartialD1Center.h" />
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402OperatorExplicitSpartialD2.h" />
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402OperatorExplicitDt.h" />
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402OperatorImplicitSpartialD1.h" />
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402OperatorImplicitSpartialD2.h" />
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402OperatorImplicitDt.h" />
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402OperatorSplittingScheme.h" />
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402SolverDataStorageTemporal.h" />
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402SolverTemporalUniversal.h" />
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402SolverTemporalUniversalFlags.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{8a013023-5f80-4f02-a4ba-8706869d1edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMG402TestingEntitys">
+      <UniqueIdentifier>{9f9b2121-af2e-4278-b9dd-6c265ebaddfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMG402TestingEntitys\MMG402TestingEngineTemporal">
+      <UniqueIdentifier>{058b66d9-fb66-4fc6-907e-02c9e6f266dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMG402TestingEntitys\MMG402TestingOperatorSymbolic">
+      <UniqueIdentifier>{2229c776-e8cc-4a16-a339-05b45b5f0b65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMG402UnitTests">
+      <UniqueIdentifier>{031598b7-7959-46be-ae84-913872353bbd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libs\exprtk.hpp">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402TestingEngineTemporal.h">
+      <Filter>MMG402TestingEntitys\MMG402TestingEngineTemporal</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402TestingEngineTemporalTimeMesher.h">
+      <Filter>MMG402TestingEntitys\MMG402TestingEngineTemporal</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402TestingEngineTemporalValidatorErrorEstimate.h">
+      <Filter>MMG402TestingEntitys\MMG402TestingEngineTemporal</Filter>
+    </ClInclude>
+    <ClInclude Include="IMMG402TestingEngineTemporalResultPrinter.h">
+      <Filter>MMG402TestingEntitys\MMG402TestingEngineTemporal</Filter>
+    </ClInclude>
+    <ClInclude Include="IMMG402TestingEngineTemporalResultValidator.h">
+      <Filter>MMG402TestingEntitys\MMG402TestingEngineTemporal</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402TestingOperatorSymbolic.h">
+      <Filter>MMG402TestingEntitys\MMG402TestingOperatorSymbolic</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402TestingOperatorSymbolicArifmetic.h">
+      <Filter>MMG402TestingEntitys\MMG402TestingOperatorSymbolic</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402TestingOperatorSymbolicData.h">
+      <Filter>MMG402TestingEntitys\MMG402TestingOperatorSymbolic</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402TestingOperatorSymbolicDx.h">
+      <Filter>MMG402TestingEntitys\MMG402TestingOperatorSymbolic</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402TestingOperatorSymbolicElevator.h">
+      <Filter>MMG402TestingEntitys\MMG402TestingOperatorSymbolic</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402TestingRegistryDomain.h">
+      <Filter>MMG402TestingEntitys</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402TestingRegistryEquationOperatorsImplicitTemporal.h">
+      <Filter>MMG402TestingEntitys</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402TestingRegistryFucntion.h">
+      <Filter>MMG402TestingEntitys</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402TestingRegistryGrid.h">
+      <Filter>MMG402TestingEntitys</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402TestingSymbolFuncAdapter.h">
+      <Filter>MMG402TestingEntitys</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402TestCommon.h">
+      <Filter>MMG402UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402TestLinearAlgebra.h">
+      <Filter>MMG402UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402TestMExp.h">
+      <Filter>MMG402UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402UnitTest.h">
+      <Filter>MMG402UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402TestingEngineTemporalConvergenceTest.h">
+      <Filter>MMG402TestingEntitys\MMG402TestingEngineTemporal</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402TestingRegistryEquationOperatorsExplicitTemporal.h">
+      <Filter>MMG402TestingEntitys</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402TestingEngineTemporalValidatorL2.h">
+      <Filter>MMG402TestingEntitys\MMG402TestingEngineTemporal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MMG402TestCommon.cpp">
+      <Filter>MMG402UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="MMG402TestLinearAlgebra.cpp">
+      <Filter>MMG402UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="MMG402TestMExp.cpp">
+      <Filter>MMG402UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="MMG402UnitTest.cpp">
+      <Filter>MMG402UnitTests</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

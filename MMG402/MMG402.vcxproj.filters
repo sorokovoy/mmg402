@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MMG402Expression">
+      <UniqueIdentifier>{cb07a81a-b891-41c2-9651-a209b3192f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMG402Domain">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="MMG402Func">
+      <UniqueIdentifier>{be9c4dd9-a1ec-4c3c-9704-db25df0c1098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMG402Grid">
+      <UniqueIdentifier>{73bee679-e5f6-438e-a313-5c6014f907f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMG402Solver">
+      <UniqueIdentifier>{f7187407-87b2-4148-a7c7-cd521609abd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMG402Solver\MMG402SolverTemporal">
+      <UniqueIdentifier>{202e2b9a-ea97-45c3-95ce-d5d1516855cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMG402NumericData">
+      <UniqueIdentifier>{802aeb88-f050-4721-ba5c-13bc357ec0ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{01cde95b-e4fb-4983-990a-375264c87d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\MExp">
+      <UniqueIdentifier>{8ea82281-f08b-4909-9840-fd93edc617d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\GUtils">
+      <UniqueIdentifier>{a423d37e-9167-4410-84c5-f3ee04e5efc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMG402BackwardSolver">
+      <UniqueIdentifier>{945138c2-e481-4754-b27d-45e47a60a305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMG402Matrix">
+      <UniqueIdentifier>{e5d4af81-5d80-4cbc-a60b-1955796ad4e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MMG402.h" />
+    <ClInclude Include="MMG402\MMG402Expression\IMMG402Operator.h">
+      <Filter>MMG402Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Expression\IMMG402OperatorBinary.h">
+      <Filter>MMG402Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Expression\IMMG402OperatorUnary.h">
+      <Filter>MMG402Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Expression\MMG402SymbolArifmetic.h">
+      <Filter>MMG402Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Expression\MMG402SymbolDataGrid.h">
+      <Filter>MMG402Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Expression\MMG402SymbolDataScalar.h">
+      <Filter>MMG402Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Domain\IMMG402Domain.h">
+      <Filter>MMG402Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Domain\MMG402DomainPoint.h">
+      <Filter>MMG402Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Domain\MMG402Rectangle.h">
+      <Filter>MMG402Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Domain\MMG402RectDomain.h">
+      <Filter>MMG402Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Func\IMMG402Func.h">
+      <Filter>MMG402Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Func\IMMG402FuncTemporal.h">
+      <Filter>MMG402Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Func\MMG402FuncConstant.h">
+      <Filter>MMG402Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Func\MMG402FuncDescription.h">
+      <Filter>MMG402Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Func\MMG402FuncStorage.h">
+      <Filter>MMG402Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Func\MMG402FuncStorageKey.h">
+      <Filter>MMG402Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Func\MMG402FuncTrancatedSphere.h">
+      <Filter>MMG402Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Grid\IMMG402Grid.h">
+      <Filter>MMG402Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Grid\IMMG402GridIndexer.h">
+      <Filter>MMG402Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Grid\MMG402GridIndexerLinear.h">
+      <Filter>MMG402Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Grid\MMG402GridUniform.h">
+      <Filter>MMG402Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Solver\IMMG402Solver.h">
+      <Filter>MMG402Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Solver\IMMG402SolverDataStorage.h">
+      <Filter>MMG402Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\IMMG402OperatorTemporal.h">
+      <Filter>MMG402Solver\MMG402SolverTemporal</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\IMMG402SolverTemporal.h">
+      <Filter>MMG402Solver\MMG402SolverTemporal</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402OperatorExplicitSpartialD1.h">
+      <Filter>MMG402Solver\MMG402SolverTemporal</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402OperatorExplicitSpartialD2.h">
+      <Filter>MMG402Solver\MMG402SolverTemporal</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402OperatorImplicitSpartialD1.h">
+      <Filter>MMG402Solver\MMG402SolverTemporal</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402OperatorImplicitSpartialD2.h">
+      <Filter>MMG402Solver\MMG402SolverTemporal</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402SolverDataStorageTemporal.h">
+      <Filter>MMG402Solver\MMG402SolverTemporal</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402NumericData\IMMG402NumData.h">
+      <Filter>MMG402NumericData</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402NumericData\MMG402NumDataDensy.h">
+      <Filter>MMG402NumericData</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402NumericData\MMG402NumDataFuncAdapter.h">
+      <Filter>MMG402NumericData</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\MExp\IMECalculator.h">
+      <Filter>libs\MExp</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\MExp\IMESymbolData.h">
+      <Filter>libs\MExp</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\MExp\IMESymbolOperators.h">
+      <Filter>libs\MExp</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\MExp\IMESymbolPrinter.h">
+      <Filter>libs\MExp</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\MExp\MECalculatorDeep.h">
+      <Filter>libs\MExp</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\MExp\MESymbol.h">
+      <Filter>libs\MExp</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\MExp\MESymbolArifmetic.h">
+      <Filter>libs\MExp</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\MExp\MESymbolDerivative.h">
+      <Filter>libs\MExp</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\MExp\MESymbolFunc.h">
+      <Filter>libs\MExp</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\MExp\MESymbolPrinterArifmetic.h">
+      <Filter>libs\MExp</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\MExp\MESymbolTable.h">
+      <Filter>libs\MExp</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\GUtils\GUAssert.h">
+      <Filter>libs\GUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\GUtils\GUAutoPtr.h">
+      <Filter>libs\GUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\GUtils\GUMathUtils.h">
+      <Filter>libs\GUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\GUtils\GUNullableType.h">
+      <Filter>libs\GUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\GUtils\GUPointerStorage.h">
+      <Filter>libs\GUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\GUtils\GURandom.h">
+      <Filter>libs\GUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\GUtils\GUStringUtils.h">
+      <Filter>libs\GUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\GUtils\GUWeakPtr.h">
+      <Filter>libs\GUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\ObjExtension.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\ObjRegistry.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402OperatorExplicitDt.h">
+      <Filter>MMG402Solver\MMG402SolverTemporal</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402OperatorImplicitDt.h">
+      <Filter>MMG402Solver\MMG402SolverTemporal</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverInput.h">
+      <Filter>MMG402Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Expression\MMG402SymbolFunc.h">
+      <Filter>MMG402Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverOutput.h">
+      <Filter>MMG402Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402OperatorExplicitSpartialD1Center.h">
+      <Filter>MMG402Solver\MMG402SolverTemporal</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Matrix\IMMG402Matrix.h">
+      <Filter>MMG402Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Matrix\MMG402MatrixDensy.h">
+      <Filter>MMG402Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Matrix\MMG402MatrixSparce.h">
+      <Filter>MMG402Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Matrix\MMG402MatrixSolver.h">
+      <Filter>MMG402Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Matrix\MMG402Matrix3Diagonal.h">
+      <Filter>MMG402Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Domain\MMG402DomainSpaceDimReductor.h">
+      <Filter>MMG402Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Func\MMG402FuncSpaceDimReductor.h">
+      <Filter>MMG402Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Grid\MMG402GridIndexerSpaceDimReductor.h">
+      <Filter>MMG402Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402NumericData\MMG402NumDataSpaceDimReductor.h">
+      <Filter>MMG402NumericData</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Grid\MMG402GridSpaceDimReductor.h">
+      <Filter>MMG402Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\libs\MMG402IndexDimReductor.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402OperatorSplittingScheme.h">
+      <Filter>MMG402Solver\MMG402SolverTemporal</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402OperatorCellSolver.h">
+      <Filter>MMG402Solver\MMG402SolverTemporal</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402NumericData\MMG402NumDataCellReductor.h">
+      <Filter>MMG402NumericData</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402BackwardSolver\MMG402RegressionAnalyzer.h">
+      <Filter>MMG402BackwardSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402BackwardSolver\MMG402RegressionAnalyzerExpScalar.h">
+      <Filter>MMG402BackwardSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402BackwardSolver\MMG402RegressionAnalyzerExpGrid.h">
+      <Filter>MMG402BackwardSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402NumericData\IMMG402NumDataOperator.h">
+      <Filter>MMG402NumericData</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402OperatorExplicitSpartialAverage.h">
+      <Filter>MMG402Solver\MMG402SolverTemporal</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402SolverTemporalUniversal.h">
+      <Filter>MMG402Solver\MMG402SolverTemporal</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\MMG402SolverTemporalUniversalFlags.h">
+      <Filter>MMG402Solver\MMG402SolverTemporal</Filter>
+    </ClInclude>
+    <ClInclude Include="MMG402\MMG402Solver\MMG402SolverTemporal\IMMG402OperatorTemporalUniversal.h">
+      <Filter>MMG402Solver\MMG402SolverTemporal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>

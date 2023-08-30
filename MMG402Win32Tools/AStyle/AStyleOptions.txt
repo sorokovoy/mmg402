@@ -1,0 +1,1 @@
+--style=kr --indent=spaces=2 --indent-switches --indent-namespaces --indent-preproc-block  --pad-oper --pad-header --align-pointer=type  --align-reference=type  --convert-tabs
